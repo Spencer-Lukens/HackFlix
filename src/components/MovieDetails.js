@@ -7,7 +7,7 @@ const MovieDetails = () => {
     const [ individualMovie, setIndividualMovie ] = useState({})
 
     const params = useParams()
-
+// test
     useEffect(() => {
         axios({
             url: `https://api.themoviedb.org/3/movie/${params.movieID}`,
