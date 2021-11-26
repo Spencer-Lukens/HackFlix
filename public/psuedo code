@@ -1,0 +1,9 @@
+// PSUEDO CODE
+UseEffect to load api
+* - api call in useEffect on page render
+* - map results ot display ul of images
+* - html to display the movies onscreen and save API data to run state
+* Save api data to state
+* import axios
+Should we start importing pieces from the react Router library? we might need to use browserroute to go to move detail? route to the movie page when the movie image is clicked
+* header with a home link to Hackflix year parameter for the api
